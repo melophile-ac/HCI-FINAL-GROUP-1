@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>University of Eastern Pangasinan</title>
+
+<style>
+    body {
+        margin: 0;
+        font-family: Arial, sans-serif;
+        background: #f8eaea;
+    }
+
+    header {
+        background: #800000;
+        color: white;
+        text-align: center;
+        padding: 25px 20px;
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        z-index: 1000;
+        box-sizing: border-box;
+    }
+
+    header h1 {
+        margin: 0;
+    }
+
+    header p {
+        margin-top: 10px;
+    }
+
+    nav {
+        background: #a52a2a;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 25px;
+        padding: 15px 10px;
+        position: fixed;
+        top: 120px;
+        left: 0;
+        width: 100%;
+        z-index: 999;
+        box-sizing: border-box;
+    }
+
+    nav a {
+        color: white;
+        text-decoration: none;
+        font-weight: bold;
+        font-size: 18px;
+        display: inline-block;
+    }
+
+    nav a:hover {
+        text-decoration: underline;
+    }
+
+    nav a.active {
+        border-bottom: 2px solid white;
+    }
+
+    .enroll-btn {
+        background: #800000;
+        padding: 10px 18px;
+        border-radius: 5px;
+    }
+
+    .video-section {
+        margin-top: 220px;
+        text-align: center;
+        padding: 40px 20px;
+    }
+
+    .welcome-text h1 {
+        color: #800000;
+        font-size: 48px;
+    }
+
+    video {
+        width: 100%;
+        max-width: 1100px;
+        border-radius: 10px;
+    }
+
+    .video-description {
+        background: white;
+        max-width: 1100px;
+        margin: 20px auto;
+        padding: 25px;
+        font-size: 20px;
+        line-height: 1.8;
+        color: #333;
+        border-top: 5px solid #800000;
+    }
+
+    footer {
+        background: #800000;
+        color: white;
+        text-align: center;
+        padding: 15px;
+        margin-top: 40px;
+    }
+</style>
+
+</head>
+
+<body>
+
+<header>
+    <h1>University of Eastern Pangasinan</h1>
+    <p>Binalonan Campus</p>
+</header>
+
+<nav>
+    <a href="FrontPage.html" class="active">Home</a>
+    <a href="about.html">About</a>
+    <a href="courses.html">Courses</a>
+    <a href="news.html">News</a>
+    <a href="enrollment.html" class="enroll-btn">Enroll</a>
+    <a href="contact.html">Contact</a>
+</nav>
+
+<section class="video-section">
+
+    <div class="welcome-text">
+        <h1>Welcome to UEP Binalonan</h1>
+    </div>
+
+    <video autoplay muted loop playsinline controls>
+        <source src="c:\Users\carlo jay antonio\Downloads\lv_0_20260508131714.mp4" type="video/mp4">
+    </video>
+
+    <div class="video-description">
+        <p>
+            The University of Eastern Pangasinan Binalonan Campus is dedicated to providing quality education that prepares students for professional success and responsible leadership. The institution promotes academic excellence, discipline, innovation, and community service through student-centered learning experiences. UEP continues to empower students by developing their skills, values, and potential to become globally competitive individuals.
+        </p>
+    </div>
+
+</section>
+
+<footer>
+    <p>© 2026 University of Eastern Pangasinan</p>
+</footer>
+
+</body>
+</html>

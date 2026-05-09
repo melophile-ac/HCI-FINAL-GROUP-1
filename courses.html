@@ -1,0 +1,361 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>UEP Courses</title>
+
+<style>
+
+body{
+    margin:0;
+    font-family:Arial,sans-serif;
+    background:#f8eaea;
+}
+
+/* FIXED HEADER */
+
+header{
+    background:#800000;
+    color:white;
+    text-align:center;
+    padding:25px 20px;
+
+    position:fixed;
+    top:0;
+    left:0;
+    width:100%;
+
+    z-index:1000;
+    box-sizing:border-box;
+}
+
+header h1{
+    margin:0;
+}
+
+header p{
+    margin-top:10px;
+}
+
+/* FIXED NAVIGATION */
+
+nav{
+    background:#a52a2a;
+
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    gap:25px;
+
+    padding:15px 10px;
+
+    position:fixed;
+    top:120px;
+    left:0;
+    width:100%;
+
+    z-index:999;
+
+    box-sizing:border-box;
+}
+
+nav a{
+    color:white;
+    text-decoration:none;
+    font-weight:bold;
+    font-size:18px;
+}
+
+nav a:hover{
+    text-decoration:underline;
+}
+
+nav a.active{
+    border-bottom:2px solid white;
+}
+
+.enroll-btn{
+    background:#800000;
+    padding:10px 18px;
+    border-radius:5px;
+}
+
+/* COURSE SECTION */
+
+.course-section{
+    width:80%;
+    margin:220px auto 40px auto;
+}
+
+.course-card{
+    background:white;
+    margin-bottom:60px;
+    padding-bottom:30px;
+    border-top:5px solid #800000;
+    box-shadow:0 2px 8px rgba(0,0,0,0.1);
+}
+
+.course-banner{
+    position:relative;
+}
+
+.course-banner img{
+    width:100%;
+    height:450px;
+    object-fit:contain;
+    background:white;
+}
+
+.course-title{
+    position:absolute;
+    bottom:20px;
+    left:20px;
+    background:rgba(128,0,0,0.75);
+    color:white;
+    padding:15px 25px;
+    font-size:50px;
+}
+
+.course-content{
+    padding:30px;
+    font-size:20px;
+    line-height:1.8;
+    color:#333;
+}
+
+ul{
+    margin-left:40px;
+}
+
+/* FOOTER */
+
+footer{
+    background:#800000;
+    color:white;
+    text-align:center;
+    padding:15px;
+    margin-top:40px;
+}
+
+</style>
+
+</head>
+
+<body>
+
+<header>
+
+<h1>University of Eastern Pangasinan</h1>
+
+<p>Binalonan Campus</p>
+
+</header>
+
+<nav>
+
+<a href="FrontPage.html">Home</a>
+
+<a href="about.html">About</a>
+
+<a href="courses.html" class="active">Courses</a>
+
+<a href="news.html">News</a>
+
+<a href="enrollment.html" class="enroll-btn">Enroll</a>
+
+<a href="contact.html">Contact</a>
+
+</nav>
+
+<div class="course-section">
+
+<!-- EDUCATION -->
+
+<div class="course-card">
+
+<div class="course-banner">
+
+<img src="c:\Users\carlo jay antonio\Downloads\education.jpeg">
+
+<div class="course-title">Education</div>
+
+</div>
+
+<div class="course-content">
+
+<p>
+The University of Eastern Pangasinan offers professional education for bachelor degrees in Elementary Education and Secondary Education to meet the growing need for professional teachers in the country.
+</p>
+
+</div>
+
+</div>
+
+<!-- HOSPITALITY -->
+
+<div class="course-card">
+
+<div class="course-banner">
+
+<img src="c:\Users\carlo jay antonio\Downloads\hospitality.jpeg">
+
+<div class="course-title">Hospitality Management</div>
+
+</div>
+
+<div class="course-content">
+
+<p>
+UEP Bachelor of Science in Hospitality Management prepares students for careers in hotels, resorts, airlines, and tourism industries.
+</p>
+
+</div>
+
+</div>
+
+<!-- CRIMINOLOGY -->
+
+<div class="course-card">
+
+<div class="course-banner">
+
+<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRPoJa5-tJOldUZQWT_zk4UjgVkQB1sRd38Ew&s">
+
+<div class="course-title">Criminology</div>
+
+</div>
+
+<div class="course-content">
+
+<p>
+The criminology program focuses on crime prevention, investigation, law enforcement, and public safety.
+</p>
+
+</div>
+
+</div>
+
+<!-- BUSINESS ADMINISTRATION -->
+
+<div class="course-card">
+
+<div class="course-banner">
+
+<img src="c:\Users\carlo jay antonio\Downloads\businessadd.jpeg">
+
+<div class="course-title">Business Administration</div>
+
+</div>
+
+<div class="course-content">
+
+<p>
+Business Administration provides students with knowledge in finance, marketing, and management.
+</p>
+
+</div>
+
+</div>
+
+<!-- INFORMATION TECHNOLOGY -->
+
+<div class="course-card">
+
+<div class="course-banner">
+
+<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTpNgLtMF85u81hq9xOq1Vb_kTUlpCiby3Zjg&s">
+
+<div class="course-title">Information Technology</div>
+
+</div>
+
+<div class="course-content">
+
+<p>
+The IT program equips students with skills in programming, networking, database systems, and software development.
+</p>
+
+</div>
+
+</div>
+
+<!-- MIDWIFERY -->
+
+<div class="course-card">
+
+<div class="course-banner">
+
+<img src="c:\Users\carlo jay antonio\Downloads\midwifery.jpeg">
+
+<div class="course-title">Midwifery</div>
+
+</div>
+
+<div class="course-content">
+
+<p>
+UEP Midwifery develops healthcare professionals dedicated to maternal and child care services.
+</p>
+
+</div>
+
+</div>
+
+<!-- ACCOUNTANCY -->
+
+<div class="course-card">
+
+<div class="course-banner">
+
+<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSJXsYJdzXGp_4tmBhMi3jmxwWjap0aCORzdw&s">
+
+<div class="course-title">Accountancy</div>
+
+</div>
+
+<div class="course-content">
+
+<p>
+The Accountancy program trains students in accounting principles, auditing, taxation, and financial management.
+</p>
+
+</div>
+
+</div>
+
+<!-- AIS -->
+
+<div class="course-card">
+
+<div class="course-banner">
+
+<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRDWiZ2KJXR8MW5eiqswl9Xz6hi-5KpuMslIg&s">
+
+<div class="course-title">Accounting Information System</div>
+
+</div>
+
+<div class="course-content">
+
+<p>
+Accounting Information System combines accounting and information technology for business operations and decision-making.
+</p>
+
+</div>
+
+</div>
+
+</div>
+
+<footer>
+
+<p>© 2026 University of Eastern Pangasinan</p>
+
+</footer>
+
+</body>
+</html>
